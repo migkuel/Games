@@ -72,7 +72,7 @@ namespace Games
         }
         public string[] Lista()
         {
-            string[] lista = File.ReadAllLines("C:\\Users\\lukes\\source\\repos\\Termo\\Termo\\WordsTips.txt");
+            string[] lista = File.ReadAllLines("WordsTips.txt");
             return lista;
         }
         private HangmanWord Sorteio(List<HangmanWord> lista)

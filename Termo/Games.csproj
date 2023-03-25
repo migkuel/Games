@@ -65,13 +65,19 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Termo.cs" />
     <Compile Include="User.cs" />
+    <Compile Include="UserManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="WordsTips.txt" />
-    <Content Include="Words.txt" />
+    <Content Include="Score.txt" />
+    <Content Include="WordsTips.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Words.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">

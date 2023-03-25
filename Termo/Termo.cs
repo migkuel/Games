@@ -159,7 +159,7 @@ namespace Games
         }
         public string[] Lista()
         {
-            string[] lista = File.ReadAllLines("C:\\Users\\lukes\\source\\repos\\Termo\\Termo\\Words.txt");
+            string[] lista = File.ReadAllLines("Words.txt");
             return lista;
         }
         public void Exit()
