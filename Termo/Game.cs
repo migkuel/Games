@@ -21,6 +21,9 @@ namespace Games
             Console.WriteLine("   Escreva seu nickname para começar...");
             string aux = Console.ReadLine();
             user = new User(aux);
+            UserManager userManager = new UserManager();
+            userManager.SaveUser(user);
+
             Run();
         }
         static void Menu()
