@@ -1,0 +1,10 @@
+﻿macaco,animal da floresta
+leoa,animal da selva
+netuno,planeta do sistema solar
+buriti,espécie de árvore
+xaropinho,rato famoso
+valorant,jogo eletrônico
+foice,instrumento de colheita
+colher,utensílio de cozinha
+marvel,companhia de HQs
+relógio,instrumento do cotidiano
